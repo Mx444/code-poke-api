@@ -89,6 +89,7 @@ btnFind.addEventListener("click", async function () {
 
     `;
     txt.value = "";
+    txt.placeholder = "";
   } catch (error) {
     console.error("There has been a problem with your fetch operation:", error);
   }
