@@ -1,29 +1,78 @@
-# Pokédex App
+# Pokémon API
 
-Una semplice applicazione web per cercare informazioni sui Pokémon utilizzando l'API di PokéAPI.
+This repository contains a web application for searching Pokémon information using the PokeAPI. The project was developed as part of the Progetto Code initiative.
 
-## 📜 Descrizione
+## Repository Structure
 
-Questo progetto è un esercizio pratico volto a migliorare le competenze nello sviluppo web e nell'interazione con le API. Utilizzando l'API di PokéAPI, l'applicazione consente agli utenti di cercare e visualizzare informazioni dettagliate su vari Pokémon. È un ottimo modo per esplorare concetti come le richieste asincrone e il parsing dei dati JSON in JavaScript.
+The repository is organized as follows:
 
-## ⚙️ Funzionalità
+- **css/**: Styling files directory
+  - **styles.css**: Main stylesheet
+- **js/**: JavaScript files directory
+  - **app.js**: Main application logic
+- **index.html**: Main HTML file
 
-- **Ricerca Pokémon:** Inserisci il nome di un Pokémon nell'apposito campo di ricerca e premi il pulsante "Find" per visualizzare le informazioni corrispondenti.
-- **Visualizzazione dettagli:** Una volta trovato un Pokémon, vengono visualizzati i dettagli come il nome, il numero, i tipi, le abilità, i movimenti, il peso e l'altezza.
-- **Colorazione dinamica:** La scheda del Pokémon cambia colore in base al suo tipo.
+## Features
 
-## 🧑‍💻 Tecnologie utilizzate
+The Pokémon API application offers the following features:
 
-- HTML
-- CSS
-- JavaScript
+- **Pokémon Search**
+  - Search for Pokémon by name or ID
+  - View detailed information about the Pokémon
 
-## ❓ API utilizzate
+- **Data Display**
+  - Pokémon image
+  - Type (with corresponding background color)
+  - Weight and height
+  - Abilities
+  - Moves
 
-- [PokéAPI](https://pokeapi.co/)
+## How to Use
 
-## 🖼️ Screenshot
+1. **Searching for a Pokémon**:
+   - Enter a Pokémon name or ID in the text field
+   - Click the "Search" button
+   - The Pokémon information will be displayed in the section below
 
-<p align="center">
-  <img src="https://i.ibb.co/3Wg8mQ4/Screenshot-2024-06-06-142926.png" alt="Screenshot">
-</p>
+2. **Viewing Information**:
+   - The application will show an image of the Pokémon
+   - The background color will change based on the Pokémon's type
+   - Details such as weight, height, abilities, and moves will be displayed
+
+## Technical Implementation
+
+The application is built using:
+- HTML for structure
+- CSS for styling
+- JavaScript for functionality
+
+The application uses the public [PokeAPI](https://pokeapi.co/) to retrieve Pokémon data.
+
+## Design Features
+
+- Responsive design that adapts to different screen sizes
+- Animations and transitions to enhance user experience
+- Dynamic color scheme based on Pokémon type
+- Simple and intuitive user interface
+
+## Requirements
+
+- A modern web browser
+- Internet connection (to access the API)
+- No server-side components required (runs entirely in the browser)
+
+## Getting Started
+
+To use the Pokémon API application:
+
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. Start searching for your favorite Pokémon
+
+Alternatively, you can access the application by hosting the files on any web server.
+
+---
+
+*This repository was created as part of the educational journey at Progetto Code.*
+
+        
